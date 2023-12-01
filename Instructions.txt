@@ -1,0 +1,21 @@
+1. Unzip the archive
+Example: TP_[linearRegression].ipynb
+2. Rename it into: TP1_Name1_Name2.ipynb
+
+3. Code in a simpler manner what is expected
+The most important is the connection between the THEORY and the PRACTICE.
+Always comment what you are going to do, what you have done and what the result is.
+The error is bigger ? The empiral error with respect to what ?
+The predictor is correct ? why ?
+
+4. Before the final upload, EXPORT the HTML version of your work before
+final upload of the ZIP archive.
+
+
+
+When you have an unbalanced dataset:
+1- You can use alogorithm of boostrap to artificially increase the number of features of the small class. Data will be somehow interpolated and keep the same statistical properties as the orginal small class
+2- You can increase the penalization factor on the cost function of the predictor (classifier algorithm) so that the weight of the small will be increased while classifying the dataset.
+The two above techniques don't have the same statiscal properties, thus, don't lead at the same result.
+ 
+
